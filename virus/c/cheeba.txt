@@ -1,0 +1,28 @@
+CHEEBA INFO
+-----------
+Strictly personal - DO NOT COPY/SHOW THESE FILES TO ANYONE !!!
+
+CHEEBA will infect ANY executable file (COM/EXE/OVL but also all other
+executable files like PIF / hidden OVLs etc) on copy - this way you do
+not hear any difference while starting a program (that way all viruses
+are caught). It does not change any interruptvector but places a jump
+ON the old I21-vector. It does not install itself when the disk interrupt
+is hooked, to prevent being caught by anti-virus software. It does not
+infect programs with the string VIRUS in it, to prevent self-checking
+programs like McAfee SCAN.
+
+The virus is self-encrypting, with 510 different forms. The largest scan string
+is 3 bytes, so much too short to search for.
+
+ACTIVATION
+----------
+If the USERS.BBS of Remote Access is opened, the virus creates (if not already
+done) a user with SYSOP privilege.
+
+The user is called in hex: 4D 5A BE
+with password:             EB 20 B8
+
+Leave a message if you find a hacked board...
+
+Have Fun,
+                SF
